@@ -12,7 +12,7 @@ class Circle
   
   set radius(r)
   {
-    this_radius = r;
+    this._radius = r;
   }
 
   get diameter()
