@@ -4,6 +4,16 @@ class Circle
   {
     this._radius = radius;
   }
+  
+  get radius()
+  {
+    return this._radius;
+  }
+  
+  set radius(r)
+  {
+    this_radius = r;
+  }
 
   get diameter()
   {
