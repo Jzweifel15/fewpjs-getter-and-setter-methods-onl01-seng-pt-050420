@@ -32,7 +32,7 @@ class Circle
 
   set circumference(newCircum)
   {
-    this._radius = (newCircum - Math.PI) / 2;
+    this._radius = (newCircum / Math.PI) / 2;
   }
 
   get area()
