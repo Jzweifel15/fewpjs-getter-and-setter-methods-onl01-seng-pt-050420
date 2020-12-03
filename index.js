@@ -10,9 +10,9 @@ class Circle
     return this._radius;
   }
   
-  set radius(r)
+  set radius(newRadius)
   {
-    this._radius = r;
+    this._radius = newRadius;
   }
 
   get diameter()
